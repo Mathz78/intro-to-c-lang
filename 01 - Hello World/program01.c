@@ -12,7 +12,7 @@
 // That's because of "type promotion" or "type coercion"
 // GPT Explanation: The reason your code compiles with no errors is because of implicit type conversion 
 // (also known as "type promotion" or "type coercion") in C, specifically with the return type of main.
-char main()
+int main()
 {
     int test = 0;
     printf("Hello world!\n");
